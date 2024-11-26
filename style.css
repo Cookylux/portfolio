@@ -19,6 +19,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: none;
+    box-sizing: border-box;
 }
 :root{
     --bg-color: #1a0b1a;
@@ -164,4 +165,52 @@ a{
     display: block;
     margin: 0px auto;
     padding-bottom: 15px;
+}
+.hobbie{
+    width: 100%;
+    height: 60%;
+    background: #bb95a785;
+}
+.hobbie h2{
+    padding-top: 15px;
+    font-family: brownsugar;
+    font-size: 50px;
+    text-align: center; 
+}
+.hobbie p{
+    padding-top: 15px;
+    font-family: typewriter;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-weight: 500;
+}
+.hobbie img{
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 15px;
+}
+.contacts{
+    width: 100%;
+    height: 60%;
+    background: #765d67ab; 
+    text-align: center;
+}
+.contacts h2{
+    padding-top: 15px;
+    font-family: brownsugar;
+    font-size: 50px;
+    text-align: center;  
+}
+.contacts ion-icon{
+    font-size: 80px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.foot{
+    padding-top: 15px;
+    font-family: typewriter;
+    font-size: 20px;
+    text-align: center;
 }
